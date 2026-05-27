@@ -5,6 +5,8 @@ AI 视频全流程创作技能 —— 一键生成脚本、分镜、提示词包
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.1.0-green.svg)](SKILL.md)
 
+> [English](README_EN.md)
+
 ## 这是什么
 
 一个面向 AI 视频创作的全流程方法论与可执行脚手架。帮助你从一句话创意出发，按 8 步流水线输出可交付的脚本、分镜、AI 提示词包和合规文档。
