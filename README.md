@@ -82,6 +82,23 @@ cp -r video-creator ~/.agents/skills/custom/video-creator/
 帮我写一个AI视频可用的分镜和prompt
 ```
 
+## 样品输出
+
+`samples/` 目录包含一个完整示例项目的全部产出物——都市心理悬疑短片《7楼半》（3分钟，20镜，60/60满分评分）：
+
+| 文件 | 内容 | 大小 |
+|------|------|------|
+| [story.md](samples/story.md) | 故事正文（约1650字，三章结构） | 5KB |
+| [script.md](samples/script.md) | 故事脚本表 | 2.6KB |
+| [storyboard.md](samples/storyboard.md) | 分镜脚本表（20个分镜，13列格式） | 13KB |
+| [characters.md](samples/characters.md) | 人物设定提示词包 | 2.7KB |
+| [scenes.md](samples/scenes.md) | 场景设定提示词包 | 4.8KB |
+| [sound.md](samples/sound.md) | 声音设计（4层音轨） | 2.4KB |
+| [props-eastereggs.md](samples/props-eastereggs.md) | 道具与彩蛋提示词包 | 3KB |
+| [segments.md](samples/segments.md) | 15秒段落故事板（P1-P12） | 12.6KB |
+| [compliance.md](samples/compliance.md) | 合规审核报告 | 1.7KB |
+| [scoring.md](samples/scoring.md) | 质量评分报告（60/60优秀） | 3.2KB |
+
 ## 项目结构
 
 ```
@@ -89,9 +106,21 @@ video-creator/
 ├── SKILL.md       # 主 Skill 文件（49KB），包含完整创作流水线
 ├── meta.json      # 元数据（名称、描述、版本、用例）
 ├── README.md      # 本文件
+├── README_EN.md   # 英文版
 ├── LICENSE        # MIT 许可证
 ├── CONTRIBUTING.md # 贡献指南
-└── .gitignore
+├── .gitignore
+└── samples/       # 示例产出物（《7楼半》完整项目）
+    ├── story.md
+    ├── script.md
+    ├── storyboard.md
+    ├── characters.md
+    ├── scenes.md
+    ├── sound.md
+    ├── props-eastereggs.md
+    ├── segments.md
+    ├── compliance.md
+    └── scoring.md
 ```
 
 ## 贡献

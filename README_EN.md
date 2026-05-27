@@ -82,6 +82,23 @@ Generate an AI video script based on current trending topics
 Write an AI-video-ready storyboard and prompts
 ```
 
+## Sample Outputs
+
+The `samples/` directory contains all outputs from a complete example project — the urban psychological thriller short film "Floor 7½" (3 min, 20 shots, 60/60 perfect score):
+
+| File | Content | Size |
+|------|------|------|
+| [story.md](samples/story.md) | Full story (~1,650 characters, 3 chapters) | 5KB |
+| [script.md](samples/script.md) | Script table | 2.6KB |
+| [storyboard.md](samples/storyboard.md) | Storyboard table (20 shots, 13-column format) | 13KB |
+| [characters.md](samples/characters.md) | Character prompt pack | 2.7KB |
+| [scenes.md](samples/scenes.md) | Scene prompt pack | 4.8KB |
+| [sound.md](samples/sound.md) | Sound design (4-layer audio track) | 2.4KB |
+| [props-eastereggs.md](samples/props-eastereggs.md) | Props & easter egg prompt pack | 3KB |
+| [segments.md](samples/segments.md) | 15s segment storyboards (P1-P12) | 12.6KB |
+| [compliance.md](samples/compliance.md) | Compliance review report | 1.7KB |
+| [scoring.md](samples/scoring.md) | Quality score report (60/60 Excellent) | 3.2KB |
+
 ## Project Structure
 
 ```
@@ -92,7 +109,18 @@ video-creator/
 ├── README_EN.md   # English readme (this file)
 ├── LICENSE        # MIT License
 ├── CONTRIBUTING.md # Contribution guide
-└── .gitignore
+├── .gitignore
+└── samples/       # Sample outputs (complete "Floor 7½" project)
+    ├── story.md
+    ├── script.md
+    ├── storyboard.md
+    ├── characters.md
+    ├── scenes.md
+    ├── sound.md
+    ├── props-eastereggs.md
+    ├── segments.md
+    ├── compliance.md
+    └── scoring.md
 ```
 
 ## Contributing
